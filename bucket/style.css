@@ -8,7 +8,6 @@ body{
 	position: absolute;
 	bottom: 0;
 	height: 200px;
-	width:100%;
 }
 
 .square{
@@ -19,7 +18,37 @@ body{
   background-color: red;
 }
 
-.bucket-img{
+.bucket{
   position: relative;
-  width: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+.bucket-img{
+  position: absolute;
+  width: 150px;
+  z-index: 0;
+}
+
+.title{
+  position: absolute;
+  font-size: 20pt;
+  font-family: Arial;
+  width: 100%;
+  top: 75px;
+  text-align: center;
+  z-index: 1;
+}
+
+.title:hover{
+  color: #94A647;
+  cursor: pointer;
+}
+
+.bucket-img:hover{
+
+}
+
+.bucket-img:active{
+  cursor: none;
 }
